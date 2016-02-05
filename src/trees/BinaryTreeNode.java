@@ -11,7 +11,11 @@ public class BinaryTreeNode {
 		left=null;
 		right=null;
 	}
-
+	public BinaryTreeNode(int data,BinaryTreeNode right,BinaryTreeNode left){
+		this.data=data;
+		this.left=left;
+		this.right=right;
+	}
 	public int getData() {
 		return data;
 	}

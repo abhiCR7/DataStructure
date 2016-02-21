@@ -17,6 +17,7 @@ public class quick {
 				i++;
 				int tmp=a[j];
 				a[j]=a[i];a[i]=tmp;
+//				tmp=a.length;
 			}
 			j++;
 			
